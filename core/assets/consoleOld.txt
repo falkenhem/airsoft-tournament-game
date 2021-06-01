@@ -1,0 +1,23 @@
+<R>SECTION 1
+<R>SET TIME = 1000
+<R>SECTION 1 END
+
+initializing...
+
+connecting to communications network
+scanning #_________10%
+scanning ##________20%
+scanning ###_______30%
+scanning ######____60%
+scanning #########_99%
+
+connection mapping complete
+<R>SECTION 1 END
+
+<R>SECTION 2
+launching comms visualizer
+
+inserting probe enter key-code alpha
+waiting
+<R>KEYCODE ENTRY
+<R>SECTION 2 END

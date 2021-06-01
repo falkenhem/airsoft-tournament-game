@@ -1,0 +1,74 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	default-font: {
+		file: DejaVuSansMono-Bold(2).fnt
+	}
+	dejavu-mono-bold: {
+		file: dejavu-mono-bold.fnt
+	}
+	sans-mono-password: {
+		file: DejaVuSansMono-Bold(3).fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	green: {
+		r: 0
+		g: 1
+		b: 0
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	transparentBlack: {
+		r: 0
+		g: 0
+		b: 0
+		a: 0.6666667
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+
+	transparent: {
+		r: 1
+		g: 1
+		b: 1
+		a: 0
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: default-font
+		fontColor: white
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: default-font
+		fontColor: white
+	}
+	password: {
+		parent: default
+		font: sans-mono-password
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}
